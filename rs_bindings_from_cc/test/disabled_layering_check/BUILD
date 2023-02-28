@@ -4,7 +4,7 @@
 
 load("@rules_rust//rust:defs.bzl", "rust_test")
 
-package(default_applicable_licenses = ["//third_party/crubit:license"])
+package(default_applicable_licenses = [":license"])
 
 rust_test(
     name = "disabled_layering_check_test",

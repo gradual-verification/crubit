@@ -1,4 +1,4 @@
-package(default_applicable_licenses = ["//third_party/crubit:license"])
+package(default_applicable_licenses = [":license"])
 
 cc_library(
     name = "rs_api_impl_support",

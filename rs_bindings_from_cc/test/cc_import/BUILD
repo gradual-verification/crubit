@@ -4,7 +4,7 @@ load(
     "rust_test",
 )
 
-package(default_applicable_licenses = ["//third_party/crubit:license"])
+package(default_applicable_licenses = [":license"])
 
 cc_library(
     name = "two",

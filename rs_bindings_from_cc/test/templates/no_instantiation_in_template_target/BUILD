@@ -4,7 +4,7 @@ have this particular instantiation)."""
 
 load("@rules_rust//rust:defs.bzl", "rust_test")
 
-package(default_applicable_licenses = ["//third_party/crubit:license"])
+package(default_applicable_licenses = [":license"])
 
 licenses(["notice"])
 
